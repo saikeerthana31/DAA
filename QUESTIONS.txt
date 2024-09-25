@@ -1,0 +1,119 @@
+# DAA
+Eval Questions
+Amrita School of Computing 
+
+19CSE302: Design and Analysis of Algorithms 
+
+Lab Evaluation 1 
+
+Date of Submission 20/08/2024(11PM) 
+
+Group Activity:2 member per group  
+
+ 
+
+For the following questions, you may submit the assignment as a pair. Individual contributions must be clearly indicated. Additionally, at least two problems should be solved using C++ or Java. 
+
+Q.1 
+
+Commence the initial stage by coding the core sorting algorithms, namely: 
+
+In-Place Quick Sort( Pick any random element from the list and consider it as the pivot ) 
+
+k-Way Merge Sort( k = 4) 
+
+Heap Sort 
+
+Bucket Sort 
+
+Radix Sort 
+
+Afterward, create a series of random input test cases in diverse sizes, starting with a minimum of 100, and including 500 and 1000. Proceed to assess the efficiency of these algorithms using the criteria listed below: 
+
+Number of comparisons (where applicable) 
+
+Number of swaps (where applicable) 
+
+Number of basic operations (other than the ones mentioned above) 
+
+Execution time in milliseconds 
+
+Memory usage 
+
+Upon completing this evaluation, articulate your findings and deduce conclusions. 
+
+Submission Requirements: 
+
+Submit code files with clear, succinct comments. It’s important to note that code embedded within document files (such as Word documents) is not permissible. 
+
+Include input data files that contain the test cases used for the assessment. 
+
+Provide a detailed report that encapsulates your analysis, complemented by pertinent screenshots. 
+
+_________________________
+
+Q.2 
+
+Optimizations and strategic data structure applications can significantly refine each algorithm’s performance. For guidance on implementation, consider consulting “Algorithm Design” by Goodrich et al., along with other pertinent scholarly texts viz., CLRS book. 
+
+ 
+
+Detail the refinements applied to the algorithms and expound on how these modifications have elevated their efficiency. This should be substantiated both in theory and through empirical comparison, employing extensive and varied input test cases, against the algorithms’ initial versions. 
+
+_________________________
+Q.3 
+
+You are given an integer ( n ), representing the number of courses labeled from 1 to ( n ). Additionally, you have an array called relations where relations[i] = [prevCourse_i, nextCourse_i] indicates a prerequisite relationship: course prevCourse_i must be completed before course nextCourse_i. You are also given an integer ( k ). 
+
+ 
+
+In one semester, you can enroll in up to ( k ) courses, provided all prerequisites for those courses have been completed in previous semesters. 
+
+ 
+
+Return the minimum number of semesters required to complete all courses. The test cases are designed such that it is possible to complete every course. 
+
+n = 5, relations = [[2, 1], [3, 1], [4, 1], [1, 5]], k = 2 
+
+Output: 4 
+
+ 
+
+Explanation:  
+
+In the first semester, you can take courses 2 and 3, as you cannot enroll in more than two courses per semester. 
+
+In the second semester, you can take course 4. 
+
+In the third semester, you can take course 1. 
+
+In the fourth semester, you can take course 5. 
+
+ 
+
+Instructions for Submission: 
+
+Supply code files with explicit commentary. It is important to note that code inserted into text documents, such as Word files, will be deemed unacceptable. 
+
+Append input data files that encompass the test cases employed for the performance evaluation. 
+
+Present a thorough report that outlines the alterations, integrates an analytical perspective, and is supplemented with illustrative screenshots. 
+
+_________________________
+Q.4 
+
+Given an ( m X n ) grid, where each cell contains either a 1 (indicating a valid path) or a 0 (indicating an obstacle), design an iterative algorithm to find the total number of islands present in it. 
+
+ 
+
+Given an ( m X n ) grid, where each cell contains either a 1 (indicating a valid path) or a 0 (indicating an obstacle), design an iterative algorithm to check whether the grid contains exactly one path to reach from the source (1,1) to the destination (m,n). Also rewrite the code snippet such that it finds the whether the grid possess exactly ‘k’ dead ends. 
+
+ 
+
+Please submit a separate zip file for each problem. It is crucial to adhere to the plagiarism policy for this assignment. Any form of duplication, whether from peers, internet resources, or online AI tools, will result in the invalidation of the entire assignment. You may consult external materials, but they must be properly cited in your report, along with an explanation of how they were used in your work. 
+
+ 
+
+ 
+
+ 

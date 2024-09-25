@@ -1,0 +1,7 @@
+Quicksort:
+    - https://yourbasic.org/golang/quicksort-optimizations/ : Gave ideas on how to optimize it
+    - https://stackoverflow.com/questions/12454866/how-to-optimize-quicksort : Gave ideas on how to optimize it
+    - https://www.geeksforgeeks.org/file-handling-c-classes/ : File handling for Input test cases.
+    - https://www.geeksforgeeks.org/measure-execution-time-function-cpp/ : Measuing the execution time
+Radixsort:
+    - 
